@@ -1,0 +1,56 @@
+# MODULE = 13 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.1.1.1
+Perform banner grabbing using Telnet on the website www.moviescope.com. Identify the web-server application used to host the website.
+
+Ans = Microsoft-IIS/10.0
+$ NC / Telnet * Linux [Used for Banner Grabbing]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.1.2.1
+Use Nmap Scripting Engine (NSE) to extract information about the website www.goodshopping.com. Enter the port number of the ms-wbt-server service, which is open on the web server.
+Ans = 3389 
+$ nmap * Linux
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.1.2.2
+Use Nmap Scripting Engine (NSE) to check whether a web-application firewall is configured for the website www.goodshopping.com. Enter YES if a web-application firewall is configured for www.goodshopping.com or NO otherwise.
+
+Ans = YES
+$ nmap * Linux  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.2.1.1
+Perform a dictionary attack using the THC Hydra tool to remotely access the FTP server hosted on the Windows 11 machine. Note: The wordlist file is located at CEHv13 Module 13 Hacking Web Servers/Wordlists. Enter the password of the user Martin.
+
+Ans = apple
+$ Hydra * Linux [Tool for brute-forcing]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.2.1.2
+Perform a dictionary attack using the THC Hydra tool to remotely access the FTP server hosted on the Windows 11 machine. Enter the name of the user with the password “qwerty."
+
+Ans = Jason 
+$ Hydra * Linux [Tool for brute-forcing]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.2.2.1
+Install Apache Tomcat web server on Ubuntu machine and use Parrot Security machine to scan for web server and exploit log4j vulnerability present in the Apache Tomcat on Ubuntu machine to gain access to the vulnerable server. Determine the http-server-header that was found during nmap scan on 10.10.1.9. 
+
+Ans = Apache-Coyote/1.1
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 13.3.1.1
+In Parrot Security machine, use ShellGPT to write and execute a prompt to perform directory traversal attack on https://certifiedhacker.com website  using gobuster. Enter the status code of /docs directory of certifiedhacker.com that is displayed in the gobuster tool
+
+Ans = 301 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 

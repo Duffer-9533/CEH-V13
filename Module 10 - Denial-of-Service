@@ -1,0 +1,28 @@
+# MODULE = 10 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Question 10.1.1.1
+On windows 11 machine use ISB (located at E:\CEH-Tools\CEHv13 Module 10 Denial-of-Service\DoS and DDoS Attack Tools\ISB) and On Windows Server 2022 machine use UltraDDoS (located at Z:\CEHv13 Module 10 Denial-of-Service\DoS and DDoS Attack Tools\UltraDDoS) to launch DoS attack on Windows Server 2019 machine (10.10.1.19). Identify the port number on which the DoS attack was targeted. 
+
+Ans = 80 
+$ ISB (I'am So Bored) * Windows Application [Used to perform DDOS Attacks]
+$ UltraDDos * Windows Application [Used to perform DDOS Attacks]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 10.1.2.1
+Use Parrot Security machine to compromise Windows 11, Windows Server 2022 and Windows Server 2019 machines using Metasploit and run eagle-dos.py script from the compromised systems to launch DoS attack on Ubuntu machine (10.10.1.9) and detect the DoS traffic using Wireshark on the victim machine. Identify the Interface that is selected on the Ubuntu machine to capture the network traffic.
+
+Ans = eth0
+$ wireshark
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 10.2.1.1
+For this task, first use the LOIC tool on the Windows Server 2019 and Windows Server 2022 machines to perform a DDoS attack on the Windows 11 target system. Then, use the Anti DDoS Guardian tool on the Windows 11 machine to detect and protect against the DDoS attack. Which Anti DDoS Guardian option will you use to stop an ongoing DoS attack?
+
+Ans = Block IP 
+$ Anti DDos Guardian * Window Application [Used to Detect / Block the DDos Attack]
+$ LOIC * Window Application [To Perform DDos Attack]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

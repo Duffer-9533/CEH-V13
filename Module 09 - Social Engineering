@@ -1,0 +1,20 @@
+# MODULE = 9
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 9.1.1.1
+Use the Social-Engineer Toolkit (SET) on the Parrot Security machine to sniff a user’s credentials on the Windows 11 machine. Apart from Web Templates and Site Cloner, what is the third method that SET offers to deploy a credential-harvesting attack vector?
+
+Ans = Custom Import 
+$ setoolkit [Tool for perfoming Social-Engineering Attacks]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 9.2.1.1
+If Netcraft identifies any site as a phishing website, what message will Netcraft display on the user’s web browser?
+
+Ans = Suspected Phishing 
+$ Netcraft Extension * Browser Extension 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+

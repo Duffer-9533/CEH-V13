@@ -1,0 +1,51 @@
+# MODULE = 3
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.1.1.1
+Perform an ICMP ECHO ping sweep to discover live hosts on your network subnet. Find the number of live hosts in the subnet (10.10.1.2-23).
+
+Ans = 7 
+$ nmap * Linux [For Network Scanning]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.1.1.2
+Perform host discovery using Nmap to find the IP address of the machine hosting www.goodshopping.com.
+
+Ans = 10.10.1.19
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.2.1.1
+Use Nmap to perform a TCP connect/full open scan and find the port number used by the ldapssl service on the Windows Server 2022 machine.
+
+Ans = 636 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.3.1.1
+Use Nmap Scripting Engine (NSE) to perform OS discovery and find the OS on the machine at the IP address 10.10.1.22.
+
+Ans = Windows Server 2022 Standard 20348 (Windows Server 2022 Standard 6.3) 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.4.1.1
+Use the Nmap tool to scan beyond the IDS/firewall of the target machine (Windows 11). Enter the Nmap option that is used to split the IP packet into tiny fragment packets. Note: Turn on Windows Firewall to perform this task.
+
+Ans = nmap -f 10.10.1.11
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.5.1.1
+Use the Metasploit to scan the target machine. While using Metasploit auxiliary module “auxiliary/scanner/smb/smb_version”, enter the specified range of remote hosts (RHOSTS).
+
+Ans = 10.10.1.5-23 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 3.6.1.1
+Write a ShellGPT prompt and execute it on Parrot Security machine, to perform port scanning on Windows 11 virtual machine (10.10.1.11). Enter the name of the service that is running on port 139. 
+
+Ans = netbios-ssn

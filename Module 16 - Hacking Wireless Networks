@@ -1,0 +1,21 @@
+# MODULE = 16 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 16.1.1.1
+Use the Wi-Fi packet-sniffing tool Wireshark to analyze captured Wi-Fi packets (WPA2crack-01.cap). Enter the protocol that indicates the wireless packets. Note: sample captured Wi-Fi packets are available at E:\CEH-Tools\CEHv13 Module 16 Hacking Wireless Networks\Sample Captures.
+
+Ans = 802.11
+$ Wireshark 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 16.2.1.1
+Use the Aircrack-ng suite to crack a WPA2 network. Enter the key found in this exercise. Note: sample captured Wi-Fi packets and wordlist are available at /home/attacker/Desktop/CEHv13 Module 16 Hacking Wireless Networks
+
+Ans = 12345678
+$ aircrack-ng [To crack the wifi pcap file]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+

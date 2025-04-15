@@ -1,0 +1,35 @@
+# MODULE = 19 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 19.1.1.1
+On windows 11 machine use AADIntenals tool located at E:\CEH-Tools\CEHv13 Module 19 Cloud Computing\GitHub Tools\ to perform Reconnaissance on Azure AD.While performing user enumeration in Azure AD what does the Exists field display if the user exists. 
+
+Ans = True 
+$ AADInternal * Powershell [AADInternals is primarily focused on auditing and attacking Azure Active Directory (AAD) environments]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 19.2.1.1
+Use the AWS CLI tool to exploit open S3 buckets (certifiedhacker02) in the AWS service. Determine the command to list the total number of files available in the "certifiedhacker02" S3 bucket. Note: You must create an AWS account (https://aws.amazon.com) to perform this task. Enter the command that was used in this lab to list the contents of certifiedhacker02 bucket.
+
+Ans = aws s3 ls s3://certifiedhacker02
+$ aswcli * Linux [for managing AWS services]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 19.3.1.1
+Escalate IAM user privileges by exploiting a misconfigured user policy. Which aws command will list all user policies?
+
+Ans = aws iam list-user-policies 
+$ aswcli * Linux [for managing AWS services]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 19.4.1.1
+In Parrot machine install ubuntu and nginx:1.19.6 images and scan with trivy security scanner. Enter the severity level that can be observed for bsdutils vulnerability of nginx:1.19.6 docker image. 
+
+Ans = Medium
+$ trivy * Linux [To perform Vulnerability Scanning on Docker Images]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

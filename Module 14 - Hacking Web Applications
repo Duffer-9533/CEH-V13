@@ -1,0 +1,75 @@
+# MODULE = 14 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.1.1.1
+Perform a port and service discovery scan using Nmap on the website www.moviescope.com. Enter the IP address of the machine hosting www.moviescope.com.
+
+Ans = 10.10.1.19
+$ nmap 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.1.1.2
+Perform a scan using Nmap on the website www.moviescope.com. Enter the name of the DNS server hosting the domain name for www.moviescope.com.
+
+Ans = SERVER2019
+$ nmap 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.1.1.3
+Perform banner grabbing using Telnet on the website www.moviescope.com to identify the make, model, and version of the target web-server software. Identify the server-side application used to develop the web pages.
+
+Ans = ASP.NET
+$ Telnet / Netcat * Linux [Used to perform Banner Grabbing]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.1.2.1
+Perform web spidering on the www.moviescope.com website using OWASP ZAP. Enter the name of the tab on the OWASP ZAP application that allows you to view detailed information regarding the URLs obtained while performing web spidering.
+
+Ans = Spider 
+$ OWASP ZAP * Linux / Windows Application [Just like BurpSuite]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.1.3.1
+On the windows 11 machine use SmartScanner tool to perform vulnerability scan on www.moviescope.com and analyse the report. Enter the CWE ID that is connected to No redirects from HTTP to HTTPS vulnerability that is found on the target website while scanning. 
+
+Ans = CWE-311
+$ SmartScanner * Windows Application [To perform Vulnerability Scanning]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.2.1.1
+Perform a brute-force attack on the WordPress website (http://10.10.1.22:8080/CEH) using Burp Suite. Enter the username/password obtained. Note: username and password files are available at /home/attacker/Desktop/CEHv13 Module 14 Hacking Web Applications/Wordlist.
+
+Ans = admin/qwerty@123
+$ BurpSuite * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.2.2.1
+In Windows Server 2022 machine activate User Post Gallery plugin which is installed in http://10.10.1.22:8080/CEH web application. From Parrot Security machine, scan for vulnerable plugins on the http://10.10.1.22:8080/CEH web application hosted in Windows Server 2022 machine using WPScan and perform Remote code execution attack on the http://10.10.1.22:8080/CEH website. Enter the plugin name that was identified exploited in the target web application to perform RCE attack. 
+
+Ans = wp-upg 
+$ WPScan * Linux [To perform Vulnerability Scanning on Word-Press sites]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.3.1.1
+In Parrot Security machine use wapiti web application security scanner to detect web application vulnerabilities of https://www.certifiedhacker.com web application and generate a .html report. Enter the WSTG code of the Clickjacking Protection vulnerability. (Answer Format: XXXX-X-Xxxxx-Xxxxxxx)
+
+Ans = OSHP-X-Frame-Options
+$ wapiti * Linux [It detects issues like SQL injections, XSS, and other vulnerabilities]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 14.4.1.1
+Write a prompt using ShellGPT and execute it on the Parrot Security machine to check if website https://www.certifiedhacker.com is protected with a web application firewall using wafwoof. Enter the name of the web application firewall found during the scan. 
+
+Ans = ModSecurity
+$ wafwoof * Linux [To detect Firewall]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

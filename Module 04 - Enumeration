@@ -1,0 +1,81 @@
+# MODULE = 4 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.1.1.1
+Name the shared folder/drive available on the Windows Server 2019 machine.
+
+Ans = \\WINDOWS11\CEH-TOOLS
+$ nbtstat -> $ net use * cmd [to enumerate information such as NetBIOS over TCP/IP (NetBT) protocol statistics on local / remote] 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.2.1.1
+Use SnmpWalk to perform SNMP enumeration on the Windows Server 2022 machine. Enter the option that sets a community string.
+
+Ans = -c 
+$ snmpwalk * Linux [that scans numerous SNMP nodes instantly and identifies a set of variables that are available for accessing the target network]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.3.1.1
+Perform LDAP Enumeration using Active Directory Explorer (AD Explorer) and find the Domain Controller machine's IP address.
+
+Ans = 10.10.1.22 
+$ AD Explorer * Windows Application [Tool for LDAP Enumeration]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.3.1.2
+Perform LDAP enumeration using Active Directory Explorer (AD Explorer) and find the userPrincipalName for the user named Jason M.
+
+Ans = jason@CEH.com
+$ AD Explorer * Windows Application [Tool for LDAP Enumeration]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.4.1.1
+Perform NFS Enumeration using RPCScan and SuperEnum and find the port used by the NFS service on 10.10.1.19
+
+Ans = 2049 
+$ SuperEnum * Linux [Tool for enumeration of all the Services on the Target Ip Eg= NFS / Telnet / etc]
+$ RPCScan * Linux [Tools for NFS Enumeration]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.5.1.1
+Can you perform zone transfer on the primary host of certifiedhacker.com? (Yes/No)
+
+Ans = No 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.5.1.2
+Perform DNS enumeration and find the “responsible mail address” for the domain certifiedhacker.com.
+
+Ans = dnsadmin.box5331.bluehost.com
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.6.1.1
+Use the Nmap to perform SMTP enumeration to enumerate the list of all the possible mail users on the Windows Server 2019 machine. Enter the number of users enumerated on the target machine
+
+Ans = 10 
+$ nmap * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.7.1.1
+Perform enumeration using Global Network Inventory and find the full name of the OS installed in the machine at 10.10.1.22.
+
+Ans = Microsoft Windows Server 2022 Standard
+$ Global Network Inventory * Windows Application [It performs all Enumeration Eg = NetBIOS service, usernames and domain names, shared folders, the network (such as ARP tables, routing tables,traffic, etc.), user accounts, directory services, etc]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 4.8.1.1
+In Parrot Security machine write a ShellGPT prompt and execute it to perform SMB enumeration on Windows Server 2022 machine (10.10.1.22), Identify the service that is running on port 445 in Windows Server 2022 machine. 
+
+Ans = Microsoft-ds 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

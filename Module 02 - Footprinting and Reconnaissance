@@ -1,0 +1,77 @@
+=> CEH i-labs Practical Answers 
+
+# MODULE = 2  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.2.1.1
+Use the DNSdumpster website (https://dnsdumpster.com/) to obtain certifiedhacker.com domain’s DNS Servers along with Geo IP and domain mapping. Enter the IP Address of the ns2.bluehost.com DNS Server of the target domain
+
+Ans = 162.159.25.175
+$ DNS Dumpster * Website [To get detailed Domians / Sub-Domains]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.2.1.2
+Search for www.eccouncil.org on Netcraft (https://www.netcraft.com) and identify the operating system of the web server hosting the website www.eccouncil.org.
+
+Ans = Linux
+$ Netcraft * Website [To Know about the website DNS Records , Network Info. , Registry , Origin , Name Server , Hosting Servers , etc]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.3.1.1
+Use the Sherlock tool to gather all the URLs related to Elon Musk from various social networking sites. Enter the complete URL related to Elon Musk that is obtained from the social networking site Codewars.
+
+Ans = https://www.codewars.com/users/Elon%20Musk
+$ Sherlock * Linux [To get social networking sites data of the User]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.4.1.1
+Perform a Whois lookup using DomainTools and find the URL that belongs to the registrar of the website www.certifiedhacker.com.
+
+Ans = http://networksolutions.com
+$ https://whois.domaintools.com [to get the Domain , Website Registrar Name , etc]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.5.1.1
+Use the nslookup command-line utility to find the primary name server of the website www.certifiedhacker.com.
+
+Ans = ns1.bluehost.com
+$ nslookup * cmd [To get the DNS Info. of the site]
+$ http://www.kloth.net/services/nslookup.php 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.6.1.1
+Perform network tracerouting using traceroute command on the Parrot machine for the www.certifiedhacker.com domain. Enter the IP address of the target domain.
+
+Ans = 162.241.216.11
+$ tracert * Linux [To extract information about network topology, trusted routers, firewall locations, etc]
+$ traceroute * cmd 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.7.1.1
+On the Windows 11 machine, use the eMailTrackerPro tool located at E:\CEH-Tools\CEHv13 Module 02 Footprinting and Reconnaissance\Email Tracking Tools\eMailTrackerPro to gather information about an email by analyzing the email header. Observe the output and enter YES if the tool contains the “Abuse Reporting” feature; else, enter NO.
+
+Ans= Yes
+$ eMailTrackerPro * Application Windows
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.8.1.1
+Use the Recon-ng tool to gather personnel information. Enter the Recon-ng module name that extracts the contacts associated with the domain and displays them.
+
+Ans = recon/domains-contacts/whois_pocs
+$ Recon-ng * Linux [It is a Website reconnaissance tool]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 2.9.1.1
+Using ShellGPT, write a prompt and execute it to perform DNS enumeration on www.certifiedhacker.com. Enter the IP address of NS ns2.bluehost.com.
+
+Ans = 162.159.25.175
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

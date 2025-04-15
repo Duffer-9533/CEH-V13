@@ -1,0 +1,46 @@
+# MODULE = 8 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 8.1.1.1
+Use macof on the Parrot Security machine to perform MAC flooding on the Windows 11 target machine. What is the default size of the IP packets that macof uses to flood the CAM table with random MAC addresses?
+
+Ans = 54 
+$ macof * Linux [Tool to perform MAC Flooding]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 8.1.2.1
+Use Yersinia on the Parrot Security machine to perform a DHCP starvation attack. What is the default source port used by Yersinia in the DHCP mode?
+
+Ans = 68 
+$ yersinia * Linux [To perform DHCP Starvation Attack]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 8.2.1.1
+Use the Wireshark tool to perform password sniffing. Which Wireshark display filter shows HTTP POST traffic?
+
+Ans = http.request.method == POST
+$ Wireshark * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 8.3.1.1
+Use Cain and Abel on the Windows Server 2019 machine to perform ARP poisoning, and sniff traffic between the Windows 11 and Parrot Security machines. Further, use Wireshark on the same Windows Server 2019 machine to detect ARP poisoning. What is the severity level of ARP/RARP packets as shown in the expert information window of Wireshark?
+
+Ans = Warning 
+$ Cane and Abel * Windows Application [Tool used here to Perform ARP Poisoning and sniff traffic]
+$ Wireshark 
+$ Hping3
+$ Nmap 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 8.3.1.2
+Use the Nmap Scripting Engine (NSE) to check if a system on the local Ethernet has its network card in the promiscuous mode. Which Nmap NSE script detects if a network interface is in the promiscuous mode?
+
+Ans = nmap --script=sniffer-detect
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

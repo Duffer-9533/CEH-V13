@@ -1,0 +1,27 @@
+# MODULE = 17 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 17.1.1.1
+Use the PhoneSploit Pro tool to exploit the Android mobile platform via ADB. Utilize PhoneSploit-Pro to enumerate the list of installed applications. Identify and provide the package name of the Camera app present on the Android device
+
+Ans = com.android.camera2
+$ PhoneSploit-pro * Linux [To exploit the Android Mobile using adb] 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 17.1.2.1
+Use AndroRAT to create an APK file to hack an Android device. Enter the option that is used to specify the local IP address while creating an APK file using androRAT.
+
+Ans = -i 
+$ AndroRat * Linux [To make a exploit for Android devices]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 17.2.1.1
+In Android machine, use AVG AntiVirus tool to scan the Android Device for malware and resolve the detected malware files. Which screen in the AVG antivirus tool shows the list of malware and malicious files that are found after the scan?
+
+Ans= Issues to fix
+$ AVG AntiVirus tool * Android Application [Antivirus Application]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

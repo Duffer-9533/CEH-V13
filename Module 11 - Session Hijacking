@@ -1,0 +1,37 @@
+# MODULE = 11 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 11.1.1.1
+Use Caido tool on the attacker machine (10.10.1.11) to hijack a session established when a user on the victim machine (10.10.1.19) visits the website www.moviescope.com and redirect to www.goodshopping.com using the Firefox browser. Under which section does the Responses tab is located. 
+
+Ans = Intercept 
+$ Caido * Window Application [Used for Session Hijacking]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 11.1.2.1
+Use the Hetty tool to intercept HTTP traffic on the Windows Server 2022 machine. Enter the url that was entered in the address bar of the browser to open Hetty dashboard.
+
+Ans = http://localhost:8080
+$ Hetty * Window Application [Tool to intercept HTTP Traffic]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 11.1.2.2
+Use the Hetty tool to intercept HTTP traffic on the Windows Server 2022 machine. What was the password that was captured in Hetty tool by intercepting traffic of Windows Server 2022?
+
+Ans = test
+$ Hetty * Window Application [Tool to intercept HTTP Traffic]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 11.2.1.1
+Use the bettercap tool (available in the Parrot Security machine) to sniff the traffic on the target system (10.10.1.11). Use the Wireshark tool on the target system (10.10.1.11) to detect the session hijacking attempt. Traffic on which protocol indicates the session hijacking attempt in Wireshark?
+
+Ans = ARP 
+$ bettercap * Linux [To launch a session hijacking attack]
+$ Wireshark 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

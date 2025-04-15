@@ -1,0 +1,43 @@
+# MODULE = 20 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 20.1.1.1
+In Windows 11 machine create a Secret.txt file with My Account number is 0234569198 and use CyberChef (https://gchq.github.io/CyberChef/) and perform multi-layer hashing. Which button in the recipe will pause execution before running it. 
+
+Ans = Set breakpoint
+$ CyberChef * Website [Used to encode text using cryptographic functions]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 20.1.2.1
+Use CryptoForge to encrypt the file E:\CEH-Tools\CEHv13 Module 20 Cryptography\Cryptography Tools\CryptoForge\Confidential.txt on the Windows 11 machine. What is the extension of the encrypted file?
+
+Ans = .cfe 
+$ CryptoForge * Windows Application [It is a cryptographic File encryption / decryption software]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 20.2.1.1
+Create and use a self-signed certificate for the website www.goodshopping.com hosted on the machine at 10.10.1.19. Write the port number on which HTTPS is running in this task.
+
+Ans = 443 
+$ Windows IIS Manager * Windows Server Application [To create Sel-Signed certificates]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 20.3.1.1
+Use VeraCrypt to create an encrypted volume. The block size of encryption algorithm used to encrypt the volume is 128-bit block. Name the encryption algorithm used in this task.
+
+Ans = AES 
+$ VeraCrypt * Windows Application [Used to create an encrypted volume]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 20.4.1.1
+Use ShellGPT on Parrot Security machine and write a prompt to encrypt Hello World text using base64 algorithm. Enter the base64 encoded form of Hello World. 
+
+Ans = SGVsbG8gV29ybGQ=
+$ CyberChef * Website 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

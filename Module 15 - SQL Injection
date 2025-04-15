@@ -1,0 +1,36 @@
+# MODULE = 15
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 15.1.1.1
+Use the sqlmap tool to perform an SQL injection attack on the website www.moviescope.com to extract databases from the MSSQL database. Attempt to retrieve the table content of the column User_Login. Enter the password for the username steve
+
+Ans = password
+$ sqlmap * Linux [To perform Sql datbase Injection]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 15.2.1.1
+Use OWASP ZAP to test a web application (www.moviescope.com) for SQL injection vulnerabilities. Enter the CWE ID of the SQL injection vulnerability found in www.moviescope.com
+
+Ans = 89
+$ OWASP ZAP * Windows Application [Sql Vulnerability Detection Tool]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 15.2.1.2
+
+Use OWASP ZAP to test a web application (www.moviescope.com) for SQL injection vulnerabilities. Enter the WASC ID of the SQL injection vulnerability found in www.moviescope.com
+
+Ans= 19 
+$ OWASP ZAP * Windows Application [Sql Vulnerability Detection Tool]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Question 15.3.1.1
+Write a ShellGPT prompt and execute it on Parrot Security machine to perform SQL injection using sqlmap tool on  http://www.moviescope.com website. Enter the password of the user lee that was retrieved using SQL Injection. 
+
+Ans= test
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
