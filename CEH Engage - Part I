@@ -1,0 +1,109 @@
+CEH Engage - Part I
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 1:  
+An attacker conducted footprinting on a web application and saved the resulting report Dumpster.xlsx in the documents folder of EH Workstation-1. Your task is to analyze this report and identify the hostname associated with the IP address 173.245.59.176.  
+
+Ans = henry.ns.cloudflare.com
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 2:  
+Identify the number of live machines in 192.168.10.0/24 subnet.  
+
+Ans = 5
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 3:  
+Identify the IP address of a Linux-based machine with port 22 open in the target network 192.168.10.0/24  
+
+Ans = 192.168.10.111
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 4:  
+Find the IP address of the Domain Controller machine in 192.168.0.0/24.  
+
+Ans = 192.168.0.222
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 5:  
+Perform a host discovery scanning and identify the NetBIOS_Domain_Name of the host at 192.168.0.222.  
+
+Ans = SKILL.CEH
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 6:  
+Perform an intense scan on 192.168.0.222 and find out the DNS_Tree_Name of the machine in the network.  
+
+Ans = SKILL.CEH.com
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 7:  
+While performing a security assessment against the CEHORG network, you came to know that one machine in the network is running OpenSSH and is vulnerable. Identify the version of the OpenSSH running on the machine.  
+
+Ans = 8.9p1
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 8:  
+During a security assessment, it was found that a server was hosting a website that was susceptible to blind SQL injection attacks. Further investigation revealed that the underlying database management system of the site was MySQL. Determine the machine OS that hosted the database.  
+
+Ans = ubuntu
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 9:  
+Perform an intense scan on target subnet 192.168.10.0/24 and determine the IP address of the machine hosting the MSSQL database service.  
+
+Ans = 192.168.10.144
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 10:  
+Perform a DNS enumeration on www.certifiedhacker.com and find out the name servers used by the domain.  
+
+Ans = ns1.bluehost.com, ns2.bluehost.com
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 11:  
+Find the IP address of the machine running SMTP service on the 172.30.10.0/24 network.  
+
+Ans = 172.30.10.200
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 12:  
+Perform an SMB Enumeration on 172.30.10.200 and check whether the Message signing feature is required.  
+
+Ans = No
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 13:  
+Perform a vulnerability assessment on the 2023 CWE Top 25 most dangerous software vulnerabilities and determine the weakness ID of the last entry on the list.  
+
+Ans = 276
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 14:  
+Perform vulnerability scanning for the Linux host in the 192.168.10.0/24 network using OpenVAS and find the QoD percentage of vulnerability with severity level as medium.  
+
+Ans = 70
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 15:  
+Perform a vulnerability scan on the host at 192.168.10.144 using OpenVAS and identify any FTP-related vulnerability.  
+
+Ans = FTP Unencrypted Cleartext Login
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

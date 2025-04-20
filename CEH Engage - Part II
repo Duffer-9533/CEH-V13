@@ -1,0 +1,95 @@
+CEH Engage - Part II
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 1:  
+You are assigned to perform brute-force attack on a Linux machine from 192.168.10.0/24 subnet and crack the FTP credentials of user *nick*. An exploitation information file is saved in the home directory of the FTP server. Determine the Vendor homepage of the FTP vulnerability specified in the file.  
+
+Ans = https://www.crushftp.com/
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 2:  
+An intruder performed network sniffing on a machine from 192.168.10.0/24 subnet and obtained login credentials of the user for *moviescope.com* website using remote packet capture in Wireshark. You are assigned to analyze the `Mscredremote.pcapng` file located in Downloads folder of EH Workstation-1 and determine the credentials obtained.  
+
+Ans = ketty/apple
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 4:  
+A severe DDoS attack occurred in an organization, degrading the performance of a Ubuntu server in the SKILL.CEH network. You are assigned to analyze the `DD_attack.pcapng` file stored in the Documents folder of EH Workstation-2 and determine the IP address of the attacker targeting the server via UDP.  
+
+Ans = 192.168.10.144
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 5:  
+You are assigned to analyze the `PyD_attack.pcapng` file stored in the Downloads folder of EH Workstation-2. Determine the attacker's IP machine which is targeting the RPC service of the target machine.  
+
+Ans = 172.30.10.99
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 6:  
+An incident handler identified a severe DDoS attack and submitted a report using the Anti-DDoS Guardian tool. You are to analyze these reports located at `C:\Users\Admin\Documents\Anti-DDoS` on EH Workstation-1 and determine the attacker IP which transmitted the most packets to the target.  
+
+Ans = 192.168.10.222
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 7:  
+Analyze the domain controller and perform an AS-REP roasting attack on user accounts. Determine the password of the vulnerable user. Use `users.txt` and `rockyou.txt` from the attacker's home directory.  
+
+Ans = c3ll0@123
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 8:  
+A client under the domain controller has a misconfigured SQL Server vulnerability. Exploit it, retrieve `MSS.txt` from Public Downloads, and determine its size in bytes.  
+
+Ans = 7
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 9:  
+Crack RDP credentials of user *Maurice* from subnet 192.168.10.0/24. Determine the password. Use `users.txt` and `rockyou.txt` from the attacker's home directory.  
+
+Ans = Pumpkin@1234
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 10:  
+Perform a malware scan on `Tools.rar` located in the Downloads folder of EH Workstation-2 and determine the last 4 digits of the SHA-256 hash.  
+
+Ans = d282
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 12:  
+Analyze the ELF executable `Tornado.elf` located in Downloads of EH Workstation-2. Determine its Entropy value.  
+
+Ans = 2.87903
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 13:  
+Scan target subnets to identify remote packet capture feature (rpcap) enabled for remote traffic analysis. Determine the IP address.  
+
+Ans = 192.168.10.144
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 14:  
+An insider attack encrypted confidential data inside `stealth.jpeg` (located on Desktop of EH Workstation-2). Extract hidden data using `steghide` and passphrase `azerty@123`. Determine the tender quotation value.  
+
+Ans = 3965222
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Challenge 15:  
+Use `searchsploit` tool to find and determine the path of AirDrop 2.0 vulnerability.  
+
+Ans = android/dos/46445.c
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
