@@ -3,93 +3,107 @@ CEH Engage - Part II
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 1:  
-You are assigned to perform brute-force attack on a Linux machine from 192.168.10.0/24 subnet and crack the FTP credentials of user *nick*. An exploitation information file is saved in the home directory of the FTP server. Determine the Vendor homepage of the FTP vulnerability specified in the file.  
+You are assigned to perform brute-force attack on a linux machine from 192.168.10.0/24 subnet and crack the FTP credentials of user nick. An exploitation information file is saved in the home directory of the FTP server. Determine the Vendor homepage of the FTP vulnerability specified in the file.  (Format: aaaaa://aaa.aaaaaaaa.aaa/)
 
 Ans = https://www.crushftp.com/
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 2:  
-An intruder performed network sniffing on a machine from 192.168.10.0/24 subnet and obtained login credentials of the user for *moviescope.com* website using remote packet capture in Wireshark. You are assigned to analyze the `Mscredremote.pcapng` file located in Downloads folder of EH Workstation-1 and determine the credentials obtained.  
+An intruder performed network sniffing on a machine from 192.168.10.0/24 subnet and obtained login credentials of the user for moviescope.com website using remote packet capture in wireshark. You are assigned to analyse the Mscredremote.pcapng file located in Downloads folder of EH Workstation-1 and determine the credentials obtained.  (Format: aaaa/aaaaa)
 
 Ans = ketty/apple
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+Challenge 3:  
+You are assigned to analyse a packet capture file ServerDoS.pcapng located in Downloads folder of EH Workstation-2 machine. Determine the UDP based application layer protocol which attacker employed to flood the machine in targeted network.  
+Note: Check for target Destination port. (Format: Aaaaa Aaaaaaa Aaaaaaaa)
+
+Ans =
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Challenge 4:  
-A severe DDoS attack occurred in an organization, degrading the performance of a Ubuntu server in the SKILL.CEH network. You are assigned to analyze the `DD_attack.pcapng` file stored in the Documents folder of EH Workstation-2 and determine the IP address of the attacker targeting the server via UDP.  
+A severe DDoS attack is occurred in an organization, degrading the performance of a ubuntu server machine in the SKILL.CEH network. You are assigned to analyse the DD_attack.pcapng file stored in Documents folder of EH workstation -2 and determine the IP address of the attacker trying to attack the target server through UDP. (Format: NNN.NNN.NN.NNN)
 
 Ans = 192.168.10.144
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 5:  
-You are assigned to analyze the `PyD_attack.pcapng` file stored in the Downloads folder of EH Workstation-2. Determine the attacker's IP machine which is targeting the RPC service of the target machine.  
+You are assigned to analyse PyD_attack.pcapng file stored in Downloads folder of EH Workstation -2 machine. Determine the attacker IP machine which is targeting the RPC service of the target machine. (Format: NNN.NN.NN.NN)
 
 Ans = 172.30.10.99
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 6:  
-An incident handler identified a severe DDoS attack and submitted a report using the Anti-DDoS Guardian tool. You are to analyze these reports located at `C:\Users\Admin\Documents\Anti-DDoS` on EH Workstation-1 and determine the attacker IP which transmitted the most packets to the target.  
+An incident handler identified severe DDoS attack on a network and provided report using Anti-DDoS  Guardian tool. You are assigned to analyse the reports submitted by the IH team which are stored in "C:\Users\Admin\Documents\Anti-DDoS" directory of the EH Workstation-1 and determine the attacker IP which has transmitted more number of packets to the target machine. (Format: NNN.NNN.NN.NNN)
 
 Ans = 192.168.10.222
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 7:  
-Analyze the domain controller and perform an AS-REP roasting attack on user accounts. Determine the password of the vulnerable user. Use `users.txt` and `rockyou.txt` from the attacker's home directory.  
+You are assigned to analyse the domain controller from the target subnet and perform AS-REP roasting attack on the user accounts and determine the password of the vulnerable user whose credentials are obtained. Note: use users.txt and rockyou.txt files stored in attacker home directory while cracking the credentials. (Format: aNaaN*NNN)
 
 Ans = c3ll0@123
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 8:  
-A client under the domain controller has a misconfigured SQL Server vulnerability. Exploit it, retrieve `MSS.txt` from Public Downloads, and determine its size in bytes.  
+A client machine under the target domain controller has a misconfigured SQL server vulnerability. Your task is to exploit this vulnerability, retrieve the MSS.txt file located in the Public Downloads folder on the client machine and determine its size in bytes as answer. Note: use users.txt and rockyou.txt files stored in attacker home directory while cracking the credentials. (Format: N)
 
 Ans = 7
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 9:  
-Crack RDP credentials of user *Maurice* from subnet 192.168.10.0/24. Determine the password. Use `users.txt` and `rockyou.txt` from the attacker's home directory.  
+You are assigned to crack RDP credentials of user Maurice from the target subnet 192.168.10.0/24 and determine the password as answer. Note: use Note: use users.txt and rockyou.txt files stored in attacker home directory while cracking the credentials. (Format: Aaaaaaa@NNNN)
 
 Ans = Pumpkin@1234
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 10:  
-Perform a malware scan on `Tools.rar` located in the Downloads folder of EH Workstation-2 and determine the last 4 digits of the SHA-256 hash.  
+You are assigned to perform malware scanning on a malware file Tools.rar stored in Downloads folder of EH workstation-2 machine and determine the last four digits of the file’s SHA-256 hash value. (Format: aNNN)
 
 Ans = d282
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+Challenge 11:  
+You are assigned to monitor a suspicious process running in a machine whose log file Logfile.PML is saved in Pictures folder of the EH Workstation -2. Analyse the logfile and determine the Parent PID of the malicious file H3ll0.exe process from the log file. (Format: NNNN)
+
+Ans =
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Challenge 12:  
-Analyze the ELF executable `Tornado.elf` located in Downloads of EH Workstation-2. Determine its Entropy value.  
+You are tasked with analyzing the ELF executable file named Tornado.elf, located in the Downloads folder of EH Workstation-2. Determine the entropy value of the file up to two decimal places. (Format: N*NN)
 
 Ans = 2.87903
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 13:  
-Scan target subnets to identify remote packet capture feature (rpcap) enabled for remote traffic analysis. Determine the IP address.  
+You are assigned to scan the target subnets to identify the remote packet capture feature that is enabled to analyse the traffic on the target machine remotetly. Scan the target subnets and determine the IP address using rpcap service.  (Format: NNN.NNN.NN.NNN)
 
 Ans = 192.168.10.144
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 14:  
-An insider attack encrypted confidential data inside `stealth.jpeg` (located on Desktop of EH Workstation-2). Extract hidden data using `steghide` and passphrase `azerty@123`. Determine the tender quotation value.  
+An insider attack occurred in an organization and the confidential data regarding an upcoming event is sniffed and encrypted in a image file stealth.jpeg stored in Desktop of EH Workstation -2 machine. You are assigned to extract the hidden data inside the cover file using steghide tool and determine the tender quotation value. (Use azerty@123 for passphrase) (Format: NNNNNNN)
 
 Ans = 3965222
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Challenge 15:  
-Use `searchsploit` tool to find and determine the path of AirDrop 2.0 vulnerability.  
+Perform vulnerability search using searchsploit tool and determine the path of AirDrop 2.0 vulnerability. (Format: aaaaaaa/aaa/NNNNN.a)
 
 Ans = android/dos/46445.c
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
