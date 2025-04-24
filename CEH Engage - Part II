@@ -20,7 +20,7 @@ Challenge 3:
 You are assigned to analyse a packet capture file ServerDoS.pcapng located in Downloads folder of EH Workstation-2 machine. Determine the UDP based application layer protocol which attacker employed to flood the machine in targeted network.  
 Note: Check for target Destination port. (Format: Aaaaa Aaaaaaa Aaaaaaaa)
 
-Ans =
+Ans = Quake Network Protocol
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
