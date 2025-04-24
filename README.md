@@ -4,7 +4,7 @@ CEH v13 i-labs , CEH v13 Engage Answers
 
 🚨 Missing Answers in CEH Engage - Part 2 , Part 3 
 
-$ CEH Engage - Part 2 = Challenge 3 , 11 
+$ CEH Engage - Part 2 = Challenge 11 
 
 $ CEH Engage - Part 3 = Challenge 9 
 
