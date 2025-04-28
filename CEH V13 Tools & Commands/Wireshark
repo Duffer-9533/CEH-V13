@@ -1,0 +1,28 @@
+Wireshark Capture Options:
+
+ip.addr == 192.168.1.1: Show packets to or from the specified IP address.
+ip.src == 192.168.1.1: Show packets from the specified source IP address.
+ip.dst == 192.168.1.1: Show packets to the specified destination IP address.
+
+For Sniffing Username / Password from Website : 
+http.request.method==POST
+
+To find DOS (SYN and ACK) :
+open file with wireshark
+statistic -> IPv4 statistics -> source and destination address
+filter using: `tcp.flags.syn == 1` 
+or 
+`tcp.flags.syn == 1 and tcp.flags.ack == 0` 
+or 
+filter to highest number of request
+find IoT 
+in search write mqtt
+mqtt.msgtype == 3
+mqtt
+in MQ Telemetry Transport Protocol , Publish Message
+find
+Message: ddfgdfgdsfg;ldsf;lgk
+http.response.code == 404: Show HTTP packets with a 404 status code (Not Found).
+http.response.code >= 400: Show HTTP error responses (client and server errors).
+tcp.stream eq 1: Show packets for a specific TCP stream (replace "1" with the appropriate stream index).
+tcp.flags.syn == 1 and tcp.flags.ack == 0: Show SYN packets (indicating new TCP connections).
