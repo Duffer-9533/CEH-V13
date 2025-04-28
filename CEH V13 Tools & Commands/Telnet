@@ -1,0 +1,18 @@
+Telnet 
+_____________
+
+==============================================
+=> Banner ( version ) Grabbing of web-server
+telnet web-server-name port 
+type = GET / HTTP/1.0		   
+press enter two times
+==============================================
+
+Telnet 
+__________
+
+=> Banner ( version ) Grabbing of web-server 
+==============================================
+telnet web-server-name port 
+type = GET / HTTP/1.0		   
+press enter two times		   

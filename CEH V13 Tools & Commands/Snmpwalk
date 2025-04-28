@@ -1,0 +1,22 @@
+Snmpwalk * Linux 
+
+# Use Case:
+[SnmpWalk is a command line tool that scans numerous SNMP nodes instantly and identifies a set of variables that are available for accessing the target network]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ snmpwalk -v1 -c public [target IP] 
+
+The result displays all the OIDs, variables and other associated information
+[-v: specifies the SNMP version number (1 or 2c or 3) and -c: sets a community string]
+
+____________________________________________________________________________
+
+$ snmpwalk -v2c -c public [Target IP Address]
+
+The result displays data transmitted from the SNMP agent to the SNMP server, including information on server, user credentials, and other parameters
+[-v: specifies the SNMP version (here, 2c is selected) and -c: sets a community string]
+
+____________________________________________________________________________
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

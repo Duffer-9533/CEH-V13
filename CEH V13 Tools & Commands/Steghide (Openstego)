@@ -1,0 +1,13 @@
+steghide * linux 
+
+# UseCase:
+[Stegonography]
+
+_________________________________________________________
+
+$ steghide extract -sf stealth.jpeg
+
+$ cat hidden.txt \
+
+_________________________________________________________
+

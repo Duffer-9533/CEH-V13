@@ -1,0 +1,9 @@
+wafwoof * Linux 
+
+# UseCase: 
+[To detect Firewall]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ wafw00f Target-Website
+

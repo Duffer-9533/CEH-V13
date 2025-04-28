@@ -1,0 +1,6 @@
+Tracerouet * Linux / Tracert * cmd
+
+###### To get the Traceroute of the Target Network ######
+$ tracert site-name [www.certifiedhacker.com]
+$ traceroute site-name 
+

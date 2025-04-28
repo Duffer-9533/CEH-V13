@@ -1,0 +1,29 @@
+AADInternals * Powershell 
+
+# UseCase:
+[AADInternals is primarily focused on auditing and attacking Azure Active Directory (AAD) environments]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Open Powershell as Admin 
+
+$ cd C:\Users\Admin\Desktop\AADInternals
+____________________________________________________________________________
+
+$ Install-Module AADInternals [to install AADInternals module]
+$ Y
+$ A
+____________________________________________________________________________
+
+$ Import-Module AADInternals [to import AADInternals module]
+
+$ Invoke-AADIntReconAsOutsider -DomainName company.com | Format-table 
+[to gather information such as Tenant (Brand , id , region) , DNS, MX, SPF, DMARC, DKIM]
+
+$ Get-AADIntLoginInformation -Domain company.com 
+[to get login information for a domain type]
+
+$ Get-AADIntTenantDomains -Domain company.com
+[to get registered domains from the tenant of the given domain]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

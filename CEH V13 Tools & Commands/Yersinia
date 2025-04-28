@@ -1,0 +1,16 @@
+Yersinia * Linux 
+
+# UseCase: 
+[To perform DHCP Starvation Attack]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ yersina -I 
+$ press any key, and then press h for help to view Available Commands
+$ press q to exit
+$ press F2 to select DHCP mode
+$ press x to list available attack options
+$ press 1 to start a DHCP starvation attack
+$ To Stop press q 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

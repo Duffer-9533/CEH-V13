@@ -1,0 +1,17 @@
+PowerView * cmd
+
+# UseCase: 
+[PowerView is a PowerShell tool designed for network and AD enumeration. It helps security professionals gather detailed information about user accounts, groups, computers, and domain trusts. PowerView is used to identify potential security weaknesses and misconfigurations in an AD environmen]
+
+$ First send [PowerView.ps1] script to the Target Window Machine to enumerate as the script is placed in Parrot OS [/root/ADtools]
+
+$ Execute the Script in cmd ..\PowerView.ps1
+
+$ Get-NetComputer [This command will display all the information related to computers in AD]
+
+$ Get-NetGroup [lists all groups in AD, which helps in identifying group memberships and potential targets for privilege escalation]
+
+$ Get-NetUser [retrieves detailed information about AD user accounts, such as usernames and group membership]
+
+###### During user enumeration, we found a new user SQL_srv, who has some high privileges and could be useful for further attacks ######
+

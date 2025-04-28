@@ -1,0 +1,11 @@
+RPCScan * Linux 
+
+# UseCase: 
+[Tools for NFS Enumeration]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ python3 rpc-scan.py [Target IP address] --rpc
+[--rpc: lists the RPC (portmapper)]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

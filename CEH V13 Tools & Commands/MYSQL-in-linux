@@ -1,0 +1,72 @@
+=> To install MYSQL in linux 
+============================
+sudo systemctl status mysql
+
+=> To launch MYSQL in local Type				 
+================================				
+sudo mysql 										
+
+=> To Connect MYSQl in Publicly Type
+====================================
+mysql -u root -h sql.server.com -P 3306 -p 
+
+#-u = username 
+#-h host ( public sql server )
+#-P = port 
+#-p = passwd 
+
+=> To Show / View Database 
+===========================
+show databases; 
+
+# ; = must put to end statement 
+
+=> To Create Database 
+=========================
+create database nc_coffe;
+
+#nc_coffe = database name
+
+=> To Use the Database
+========================
+use nc_coffe;
+
+=> To View Tables in Database
+==============================
+show tables;
+
+=> To Create Table
+===================
+create table cooffe_tabel (
+id int,
+name varchar(255),
+region varchar(255),
+roast varchar(255)
+);
+
+# ( = telling the mysql that from " ( " to start Table 
+# ); = telling the mysql that from " ); " to end Table
+# , = should be put to insert second column  
+#id, name, region, roast = Columns ( Heading )
+#int (intergers), varchar (characters) = User has to define what type of data to be stored in column is ? 
+#(255) = input value of maximum characters eg = 255 ,500, etc  
+
+=> To View the colums in table 
+================================
+describe table-name;
+
+=> To Create Rows in the table 
+================================
+insert into cooffe_tabel value (1, "Test Users", "India", "light roast");
+
+=> To View the Entire Row 
+==========================
+select * from cooffe_tabel;
+
+# * = Select All data
+
+=> To View only single tabel data
+==================================
+select name from cooffe_tabel;
+
+# name = column

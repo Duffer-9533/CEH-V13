@@ -1,0 +1,54 @@
+nbtstat * cmd 
+
+# Defination: 
+[NetBIOS stands for Network Basic Input Output System. Windows uses NetBIOS for file and printer sharing]
+# Use Case:
+[NetBIOS enumeration allows you to collect information about the target such as a list of computers that belong to a target domain, shares on individual hosts in the target network, policies, passwords, etc]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ nbtstat -a [IP address of the remote machine] [-a displays the NetBIOS name table of a remote computer]
+$ nbtstat -c [-c lists the contents of the NetBIOS name cache of the remote computer]
+$ net use [displays information about the target such as connection status, shared folder/drive and network information]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

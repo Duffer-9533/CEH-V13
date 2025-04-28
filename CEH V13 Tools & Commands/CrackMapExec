@@ -1,0 +1,19 @@
+CrackMapExec * Linux 
+
+# Usecase:
+[for password spraying involves leveraging its capabilities to automate the process]
+
+$ cme rdp 10.10.1.0/24 -u /root/ADtools/users.txt -p "cupcake" [to perform password spraying on a Subnet of Computers]
+----------------------------------------------------------------------------
+    rdp: Targets the Remote Desktop Protocol (RDP) service.
+
+    10.10.1.0/24: IP address range to target, encompassing all hosts within the subnet 10.10.1.0 with a subnet mask of 255.255.255.0.
+
+    -u /root/ADtools/users.txt: Specifies the path to the file containing user accounts for authentication.
+
+    -p "cupcake": Password which we cracked using AS-REP Roasting to test against the RDP service on the specified hosts.
+----------------------------------------------------------------------------
+
+###### we find that user Mark is using the same password cupcake on host 10.10.1.40 , We will now try to connect to RDP as user mark ######
+
+###### Now login in With Passwd: cupcake and Username: Mark using using [Remmina tool ]

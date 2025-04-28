@@ -1,0 +1,10 @@
+Netcat (nc)
+___________________
+
+=> Banner ( version ) Grabbing of web-server 
+==============================================
+nc -vv web-server-name port 
+type = GET / HTTP/1.0		   
+press enter two times		   
+
+

@@ -1,0 +1,7 @@
+OpenVas * Linux  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ docker run -d -p 443:443 --name openvas mikesplain/openvas  [To run in Parrot Security machine in I-Labs]
+$ https://127.0.0.1 [Username= admin / passwd= admin]
+

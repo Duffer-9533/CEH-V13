@@ -1,0 +1,10 @@
+Hping3 * Linux 
+
+$ hping3 --icmp --count 10 Target-Ip [To perform ICMP scan on target IP address]
+
+$ hping3 -A -p 80 Target-Ip [to perform ACK scan on target IP address]
+
+$ hping3 -sn Target-Ip [To scan active hosts]
+
+$ hping3 [Target IP Address] -c 100000 [This command will start pinging the target machine] 
+# [-c: specifies the packet count]

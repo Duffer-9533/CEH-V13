@@ -1,0 +1,11 @@
+SuperEnum * Linux 
+
+# UserCase:
+[Tool for enumeration of all the Services on the Target Ip Eg= NFS / Telnet / etc]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ ./superenum 
+$ Enter the File name in which the Ip Address of the Target is Stored 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -1,0 +1,14 @@
+smbclient 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ smbclient -L Target IP -  U Username
+
+$ smbclient //Target Ip/Share-name -U Username
+
+$ find the file mostly in Music folder 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+

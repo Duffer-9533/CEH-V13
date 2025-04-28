@@ -1,0 +1,7 @@
+SkipFish * Linux 
+
+Usecase: 
+[To discover website vuln.]
+
+$ skipfish -o /tmp/skipfish_output website-name
+

@@ -1,0 +1,30 @@
+Wapiti * Linux 
+
+# UseCase:
+[The Wapiti web-application vulnerability scanner identifies security weaknesses in web applications by crawling websites and performing black-box testing. It detects issues like SQL injections, XSS, and other vulnerabilities.]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ cd wapiti 
+
+$ python3 -m venv wapiti3
+
+$ . wapiti3/bin/activate
+
+$ pip install . 
+[to install wapiti web application security scanne]
+
+$ wapiti -u https://www.certifiedhacker.com
+[perform web application security scanning]
+
+$ cd /root/.wapiti/generated_report/
+[to navigate to generated_report directory]
+
+$ ls
+
+$ cp certifiedhacker.com_xxxxxxxx_xxxx.html /home/attacker/ 
+[to copy the .html file to /home/attacker location]
+
+$ firefox certifiedhacker.com_xxxxxxxx_xxxx.html
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

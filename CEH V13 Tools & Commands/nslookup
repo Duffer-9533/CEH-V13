@@ -1,0 +1,13 @@
+nslookup * cmd
+
+$ nslookup [To launch and displays the default server]
+
+###### To resolve the Ip Address of the Taget site ###### 
+$ set type=a ["a" configures nslookup to query for the IP address of a given domain]
+$ site-name ["www.certifiedhacker.com"]
+
+###### To get domain's authoritative name server and mail server address ######
+$ set type=cname
+$ site-name ["www.certifiedhacker.com"]
+
+

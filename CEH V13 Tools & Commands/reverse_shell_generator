@@ -1,0 +1,10 @@
+reverse_shell_generator * Linux 
+
+
+# UseCase:
+[To Make reverse shell]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ docker run -d -p 80:80 reverse_shell_generator [To activate the reverse_shell_generator]
+$ http://localhost/

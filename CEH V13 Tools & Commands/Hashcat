@@ -1,0 +1,16 @@
+Hashcat * Linux 
+
+# UseCase: 
+[To brute force the Hash]
+
+$ hashcat -m 13100 --force -a 0 hash.txt /root/ADtools/rockyou.txt
+
+=====================================================
+    -m 13100: This specifies the hash type. 13100 corresponds to Kerberos 5 AS-REQ Pre-Auth etype 23 (RC4-HMAC), a specific format for Kerberos hashes.
+    --force: This option forces Hashcat to ignore warnings and run even if there are compatibility issues. Use this with caution, as it might cause instability or incorrect results.
+    -a 0: This specifies the attack mode. 0 stands for a straight attack, which is a simple dictionary attack where Hashcat tries each password in the dictionary as it is.
+    hash.txt: is the input file containing the hashes to crack
+    /root/ADtools/rockyou.txt: is the wordlist file used for the attack
+
+=====================================================
+

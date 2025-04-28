@@ -1,0 +1,12 @@
+Trivy * Linux 
+
+# UseCase: 
+[To perform Vulnerability Scanning on Docker Images]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ docker pull ubuntu [to install the first docker image]
+
+$ trivy image ubuntu [to perform vulnerability assessment]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

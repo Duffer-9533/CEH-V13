@@ -1,0 +1,10 @@
+wevtutil * cmd , Clear_Event_Viewer_Logs.bat
+
+# UseCase:
+[wevtutil: To clear Logs in Windows System]
+[Clear_Event_Viewer_Logs.bat: To clear All Logs in windows computer (Its a .bat file)]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ wevtutil cl system [To clear System Logs]
+

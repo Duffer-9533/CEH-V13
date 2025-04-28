@@ -1,0 +1,11 @@
+nc / telnet
+===============================
+
+=> nc -vv web-server-name port
+type = GET / HTTP/1.0
+press enter two times
+======================
+
+=> telnet web-server-name port 
+type = GET / HTTP/1.0
+press enter two times

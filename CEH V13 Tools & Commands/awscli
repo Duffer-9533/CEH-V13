@@ -1,0 +1,11 @@
+awscli * Linux 
+
+# UseCase:
+[The AWS command line interface (CLI) is a unified tool for managing AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ pip3 install awscli
+[to install AWS CLI]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

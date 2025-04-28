@@ -1,0 +1,10 @@
+john * Linux 
+
+# Usecase = To crack 
+
+----------------------------------------------------------------------------
+
+$ john --wordlist=/root/ADtools/rockyou.txt joshuahash.txt [This will crack the password hash and will give us the password in plain text]
+
+$ john --show joshuahash.txt
+

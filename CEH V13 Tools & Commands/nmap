@@ -1,0 +1,73 @@
+nmap * Linux
+
+
+$ nmap --script smb-os-discovery.nse [Target IP Address]  
+__________________________________________________________
+# --script: specifies the customized script 
+# smb-os-discovery.nse: attempts to determine the OS, computer name, domain, workgroup, and current time over the SMB protocol (ports 445 or 139)
+
+$ nmap -f [Target IP Address]
+__________________________________________________________
+# -f switch is used to split the IP packet into tiny fragment packets.
+
+$ nmap -g 80 [Target IP Address]
+__________________________________________________________
+# -g or --source-port option to perform source port manipulation
+
+$ nmap -mtu 8 [Target IP Address]
+__________________________________________________________
+# -mtu: specifies the number of Maximum Transmission Unit (MTU) (here, 8 bytes of packets)
+
+$ nmap -D RND:10 [Target IP Address] 
+__________________________________________________________
+# -D: performs a decoy scan and RND: generates a random and non-reserved IP addresses (here, 10)
+
+$  nmap -sT -Pn --spoof-mac 0 [Target IP Address]
+__________________________________________________________ 
+# --spoof-mac 0 represents randomizing the MAC address, -sT: performs the TCP connect/full open scan, -Pn is used to skip the host discovery
+
+$ nmap -Pn -sS -A -oX Test 10.10.1.0/24 
+__________________________________________________________
+To Scan the Subnet of a specific network 
+# -oX: output file = Test 
+
+$ nmap -iL Taget-Ip 
+__________________________________________________________
+# iL: Fast Scan 
+
+$ nmap -p 25 --script=smtp-enum-users [Target IP Address]
+__________________________________________________________
+# To perform SMTP User Enumeration 
+
+$ nmap -p 25 --script=smtp-open-relay [Target IP Address]
+__________________________________________________________
+# displays a list of open SMTP relays on the target machine
+
+$ nmap -p 25 --script=smtp-commands [Target IP Address]
+__________________________________________________________
+# Perform SMTP Enumeration Commands
+
+$ nmap --script http-vuln* -p 80 website-name 
+__________________________________________________________
+# To Perform website Vuln. scan 
+
+$ nmap --script=sniffer-detect [Target IP Address/ IP Address Range]
+__________________________________________________________
+# To Detect That if any Host Computer is in Sniffer (Promiscuous mode) mode or not 
+
+$ nmap -sV --script=http-enum [target website]
+__________________________________________________________
+# Enumerate the directories used by web servers and web applications
+
+$ nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap- www.goodshopping.com
+__________________________________________________________
+# to discover the hostnames that resolve the targeted domain
+
+$ nmap --script http-trace -d www.goodshopping.com
+__________________________________________________________
+# detects a vulnerable server that uses the TRACE method by sending an HTTP TRACE request that shows if the method is enabled or not
+
+$ nmap -p80 --script http-waf-detect www.goodshopping.com
+__________________________________________________________
+# To detect the WAF / IDS / IPS
+

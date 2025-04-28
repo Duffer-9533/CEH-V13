@@ -1,0 +1,12 @@
+Bettercap * Linux 
+
+#UseCase: 
+To launch a session hijacking attack 
+
+[bettercap sends several ARP broadcast requests to the hosts (or potentially active hosts). A high number of ARP requests indicates that the system at 10.10.1.13 (the attacker's system in this task) is acting as a client for all the IP addresses in the subnet, which means that all the packets from the victim node (in this case, 10.10.1.11) will first go to the host system (10.10.1.13), and then the gateway. Similarly, any packet destined for the victim node is first forwarded from the gateway to the host system, and then from the host system to the victim node]
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ bettercap -iface eth0
+$ Type net.probe on and press Enter [This module will send different types of probe packets to each IP in the current subnet]
+$ Type net.recon on and press Enter [his module is responsible for periodically reading the system ARP table to detect new hosts on the network]
+$ Type net.sniff on and press Enter [This module is responsible for performing sniffing on the network]

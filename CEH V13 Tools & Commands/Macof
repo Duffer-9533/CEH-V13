@@ -1,0 +1,8 @@
+Macof * Linux 
+
+#UseCase: 
+[Used to do MAC Flooding]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ macof -i eth0 -n 10 [-n: specifies the number of packets to be sent (here, 10)]

