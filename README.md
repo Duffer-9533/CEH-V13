@@ -2,8 +2,4 @@
 
 CEH v13 i-labs , CEH v13 Engage Answers
 
-🚨 Missing Answers in CEH Engage - Part 3 
-
-$ CEH Engage - Part 3 = Challenge 9 
-
-📩 If anyone knows the answers, please reach me at: Dynamic.9533@gmail.com
+Reach me at: Dynamic.9533@gmail.com
